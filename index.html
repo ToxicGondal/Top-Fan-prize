@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SUGAR TIKTOK LIVE</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Bangers&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header Boxes -->
+<div class="box header1"><span>SUGAR TIKTOK LIVE</span></div>
+<div class="box header2">Weekly Top Fans Prize Winners</div>
+
+<!-- Input Section -->
+<div class="name-inputs" id="nameInputs">
+  <div class="input-box">
+    <input type="text" placeholder="Enter name">
+    <button class="removeBtn">X</button>
+  </div>
+</div>
+<button id="addNameBtn">Add Name</button>
+<button id="saveBtn">Save Names</button>
+<div class="saved-names" id="savedNames"></div>
+
+<!-- Wheel Box -->
+<div class="box wheel-box">
+  <div class="wheel-container">
+    <div class="pointer"></div>
+    <div class="wheel glow" id="wheel">
+      <div class="center-circle">
+        <img src="sugar.png" alt="Center Logo">
+      </div>
+      <div class="neon-ring"></div>
+      <div id="winner"></div>
+    </div>
+  </div>
+</div>
+
+<button id="spinBtn">Spin Wheel</button>
+
+<script src="script.js"></script>
+</body>
+</html>
